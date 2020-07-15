@@ -11,10 +11,10 @@ Check out our [Blog](https://astroautomata.com/paper/symbolic-neural-nets/), [Pa
 
 ## Requirements
 Using following command to generate conda envrionment.
-'conda env create -f environment.yml'
+`conda env create -f environment.yml`
 
 Next, following commands will automatically install additional libraries.
-'pip install -r requirements -f https://pytorch-geometric.com/whl/torch-1.5.0.html'
+`pip install -r requirements -f https://pytorch-geometric.com/whl/torch-1.5.0.html`
 
 For model:
 
