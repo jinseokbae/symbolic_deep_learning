@@ -1,6 +1,6 @@
 # [Discovering Symbolic Models from Deep Learning with Inductive Biases](https://arxiv.org/abs/2006.11287)
 
-This [repository](https://github.com/MilesCranmer/symbolic_deep_learning) is the official implementation of [Discovering Symbolic Models from Deep Learning with Inductive Biases](https://arxiv.org/abs/2006.11287). 
+This [repository](https://github.com/MilesCranmer/symbolic_deep_learning) is the official implementation of [Discovering Symbolic Models from Deep Learning with Inductive Biases](https://arxiv.org/abs/2006.11287).
 
 Miles Cranmer, Alvaro Sanchez-Gonzalez, Peter Battaglia, Rui Xu, Kyle Cranmer, David Spergel, Shirley Ho
 
@@ -10,6 +10,11 @@ Check out our [Blog](https://astroautomata.com/paper/symbolic-neural-nets/), [Pa
 
 
 ## Requirements
+Using following command to generate conda envrionment.
+'conda env create -f environment.yml'
+
+Next, following commands will automatically install additional libraries.
+'pip install -r requirements -f https://pytorch-geometric.com/whl/torch-1.5.0.html'
 
 For model:
 
